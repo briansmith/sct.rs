@@ -11,5 +11,5 @@ repository = "https://github.com/ctz/sct.rs"
 categories = ["network-programming", "cryptography"]
 
 [dependencies]
-ring = "0.14"
+ring = { git = "https://github.com/briansmith/ring" }
 untrusted = "0.6.2"
